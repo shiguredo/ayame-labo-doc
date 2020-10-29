@@ -119,8 +119,25 @@ Ayame Labo はサインアップする事で商用利用を許可しています
 利用可能な SDK やクライアント、ライブラリ
 =========================================
 
+公式 SDK
+---------------
+
 - `OpenAyame/ayame-web-sdk: Ayame Web SDK <https://github.com/OpenAyame/ayame-web-sdk>`_
+
+動作確認済みサンプル
+--------------------
+
 - `react-native-webrtc-kit/react-native-webrtc-kit-samples <https://github.com/react-native-webrtc-kit/react-native-webrtc-kit-samples/tree/develop/HelloAyame>`_
+
+サードパーティ
+--------------
+
+**動作確認などは取っていません**
+
+- `tarukosu/MixedReality-WebRTC-ayame: MixedReality-WebRTC にて、シグナリングサーバとして Ayame を利用するためのコード <https://github.com/tarukosu/MixedReality-WebRTC-ayame>`_
+- `hakobera/go-ayame: go-ayame is go client library for WebRTC Signaling Server Ayame <https://github.com/hakobera/go-ayame>`_
+- `tarakoKutibiru/UnityRenderStreaming-Ayame-Sample <https://github.com/tarakoKutibiru/UnityRenderStreaming-Ayame-Sample>`_
+
 
 サインアップなしでの利用方法
 ============================
