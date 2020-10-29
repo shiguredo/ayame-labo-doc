@@ -231,7 +231,7 @@ Ayame Web SDK を利用する場合はオプションに signalingKey をシグ�
 
 シグナリングキーが ``jGTYhHBYhIF0IvzTTvPub0aO8qsmshksqACOCou2GrcOSNTa`` の場合は
 
-.. code-block::
+.. code-block:: javascript
 
     const signalingUrl = "wss://ayame-labo.shiguredo.jp/signaling"
     const roomId = "shiguredo@ayame-labo";
