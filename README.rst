@@ -2,9 +2,9 @@
 Ayame Labo ドキュメント
 ###############################
 
-:日時: 2020-10-29
+:日時: 2020-10-31
 :作: `時雨堂 <https://shiguredo.jp>`_ 
-:資料 バージョン: 2020.1
+:資料 バージョン: 2020.2
 :URL: https://ayame-labo.shiguredo.jp/
 
 これは時雨堂が提供している `Ayame Labo <https://ayame-labo.shiguredo.jp/>`_ のドキュメントです。
