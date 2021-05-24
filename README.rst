@@ -47,6 +47,9 @@ FAQ
 - Ayame Labo は STUN を提供していますか？
 
   - サインアップ時のみ提供しています
+- Ayame Labo は TURN-UDP を提供していますか？
+
+  - サインアップ時のみ提供しています
 - Ayame Labo は TURN-TCP や TURN-TLS を提供していますか？
 
   - サインアップ時のみ提供しています
