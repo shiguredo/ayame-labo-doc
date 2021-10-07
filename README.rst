@@ -100,7 +100,7 @@ Discord
 フィードバック
   歓迎します
 
-https://discord.gg/z6EJu3d
+https://discord.gg/shiguredo
 
 制限
 ====
