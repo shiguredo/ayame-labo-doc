@@ -2,14 +2,20 @@
 Ayame Labo ドキュメント
 ###############################
 
-:日時: 2021-01-29
+:日時: 2022-02-07
 :作: `時雨堂 <https://shiguredo.jp>`_ 
-:資料 バージョン: 2021.1
+:資料 バージョン: 2022.1.0
 :URL: https://ayame-labo.shiguredo.jp/
 
 これは時雨堂が提供している `Ayame Labo <https://ayame-labo.shiguredo.jp/>`_ のドキュメントです。
 
 .. contents:: :depth: 1
+ 
+ステータスページ
+=====================
+
+https://shiguredo.statusflare.app/
+ 
  
 FAQ
 ===
