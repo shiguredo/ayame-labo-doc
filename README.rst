@@ -20,6 +20,9 @@ https://shiguredo.statusflare.app/
 FAQ
 ===
 
+- Ayame Labo とはなんですか？
+
+　　 - `WebRTC Signaling Server Ayame 仕様 <https://github.com/OpenAyame/ayame-spec>`_ を実装したシグナリングサーバを提供するサービスです
 - Ayame Labo は無料ですか？
 
   - 無料で利用可能です
