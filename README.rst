@@ -2,9 +2,9 @@
 Ayame Labo ドキュメント
 ###############################
 
-:日時: 2022-02-07
+:日時: 2022-03-31
 :作: `時雨堂 <https://shiguredo.jp>`_ 
-:資料 バージョン: 2022.1.0
+:資料 バージョン: 2022.2.0
 :URL: https://ayame-labo.shiguredo.jp/
 
 これは時雨堂が提供している `Ayame Labo <https://ayame-labo.shiguredo.jp/>`_ のドキュメントです。
@@ -22,7 +22,7 @@ FAQ
 
 - Ayame Labo とはなんですか？
 
-　　 - `WebRTC Signaling Server Ayame 仕様 <https://github.com/OpenAyame/ayame-spec>`_ を実装したシグナリングサーバを提供するサービスです
+  - `WebRTC Signaling Server Ayame 仕様 <https://github.com/OpenAyame/ayame-spec>`_ の仕様に準拠したシグナリングサーバを提供しているサービスです
 - Ayame Labo は無料ですか？
 
   - 無料で利用可能です
@@ -295,3 +295,4 @@ Ayame Labo のアカウントを削除する
 もし今後、 Ayame Labo を利用しないのであればアカウントを削除できます。
 
 ダッシュボードの一番下にアカウントの削除があります。
+
