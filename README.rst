@@ -15,8 +15,11 @@ Ayame Labo ドキュメント
 =====================
 
 https://shiguredo.statusflare.app/
- 
- 
+
+
+お知らせ
+========
+
 FAQ
 ===
 
