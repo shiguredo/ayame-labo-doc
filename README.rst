@@ -2,12 +2,12 @@
 Ayame Labo ドキュメント
 ###############################
 
-:日時: 2022-04-14
+:日時: 2022-04-19
 :作: `時雨堂 <https://shiguredo.jp>`_ 
-:資料 バージョン: 2022.3.0
-:URL: https://ayame-labo.shiguredo.jp/
+:資料 バージョン: 2022.4.0
+:URL: https://ayame-labo.shiguredo.app/
 
-これは時雨堂が提供している `Ayame Labo <https://ayame-labo.shiguredo.jp/>`_ のドキュメントです。
+これは時雨堂が提供している `Ayame Labo <https://ayame-labo.shiguredo.app/>`_ のドキュメントです。
 
 .. contents:: :depth: 1
  
@@ -19,6 +19,12 @@ https://shiguredo.statusflare.app/
 
 お知らせ
 ========
+
+ayame-labo.shiguredo.app にドメインを変更しました
+-------------------------------------------------------
+
+- ayame-labo.shiguredo.jp からリダイレクト済みです
+- データベースは引き継ぎ済みです
 
 FAQ
 ===
@@ -177,7 +183,7 @@ Ayame Labo はサインアップせずに、シグナリングサーバだけを
 
 ::
 
-    wss://ayame-labo.shiguredo.jp/signaling
+    wss://ayame-labo.shiguredo.app/signaling
 
 
 サインアップなしでの制限
@@ -216,7 +222,7 @@ Momo で Ayame が利用できます。
 
 ルーム ID を ayame-labo に指定した場合::
 
-    ./momo ayame --signaling-url wss://ayame-labo.shiguredo.jp/signaling --channel-id ayame-labo
+    ./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --channel-id ayame-labo
 
 
 サインアップありでの利用方法
@@ -260,7 +266,7 @@ Ayame Web SDK を利用する場合はオプションに signalingKey をシグ�
 
 .. code-block:: javascript
 
-    const signalingUrl = "wss://ayame-labo.shiguredo.jp/signaling"
+    const signalingUrl = "wss://ayame-labo.shiguredo.app/signaling"
     const roomId = "shiguredo@ayame-labo";
     const options = Ayame.defaultOptions;
     options.signalingKey = "jGTYhHBYhIF0IvzTTvPub0aO8qsmshksqACOCou2GrcOSNTa";
@@ -288,7 +294,7 @@ Momo で Ayame Labo を利用する事ができます。
 
 GitHub Username が shiguredo で、 ルーム ID が ayame-labo の場合::
 
-    ./momo ayame --signaling-url wss://ayame-labo.shiguredo.jp/signaling --channel-id shiguredo@ayame-labo \
+    ./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --channel-id shiguredo@ayame-labo \
         --signaling-key jGTYhHBYhIF0IvzTTvPub0aO8qsmshksqACOCou2GrcOSNTa
 
 
@@ -298,4 +304,5 @@ Ayame Labo のアカウントを削除する
 もし今後、 Ayame Labo を利用しないのであればアカウントを削除できます。
 
 ダッシュボードの一番下にアカウントの削除があります。
+
 
