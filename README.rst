@@ -171,11 +171,6 @@ Ayame Labo はサインアップし、ルーム認証を利用する事で法人
 
 - `OpenAyame/ayame-web-sdk: Ayame Web SDK <https://github.com/OpenAyame/ayame-web-sdk>`_
 
-動作確認済みサンプル
---------------------
-
-- `react-native-webrtc-kit/react-native-webrtc-kit-samples <https://github.com/react-native-webrtc-kit/react-native-webrtc-kit-samples/tree/develop/HelloAyame>`_
-
 サードパーティ
 --------------
 
