@@ -141,7 +141,7 @@ https://discord.gg/shiguredo
 
 - Ayame の **ウェブフック機能は利用できません**
 - Ayame Labo は Ayame Web SDK 以外での利用を想定していません
-- TURN のビットレート制限は 1 接続あたり 800kbps です
+- TURN のビットレート制限は 1 接続あたり 500 kBps です
 
 禁止
 ====
