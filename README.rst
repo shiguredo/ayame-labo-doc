@@ -87,8 +87,8 @@ FAQ
 - Ayame Labo は TURN-TCP や TURN-TLS を提供していますか？
 
   - サインアップ時のみ提供しています
-  - TURN-TCP は 443/UDP ポート
-  - TURN-TLS は 443/UDP ポート
+  - TURN-TCP は 443/TCP ポート
+  - TURN-TLS は 443/TCP ポート
 - Ayame Labo は IPv6 に対応していますか？
 
   - 対応していません
