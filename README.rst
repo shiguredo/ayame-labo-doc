@@ -234,7 +234,7 @@ Momo で Ayame が利用できます。
 
 ルーム ID を ayame-labo に指定した場合::
 
-    ./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --channel-id ayame-labo
+    ./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --room-id ayame-labo
 
 
 サインアップありでの利用方法
@@ -302,11 +302,11 @@ Momo で Ayame Labo を利用する事ができます。
   - ここでは GitHub Username を ``shiguredo`` としています
 - 自分のシグナリングキーを --metadata で指定してください
 
-  - ここではシグナリグキーを ``jGTYhHBYhIF0IvzTTvPub0aO8qsmshksqACOCou2GrcOSNTa`` としています
+  - ここではシグナリングキーを ``jGTYhHBYhIF0IvzTTvPub0aO8qsmshksqACOCou2GrcOSNTa`` としています
 
 GitHub Username が shiguredo で、 ルーム ID が ayame-labo の場合::
 
-    ./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --channel-id shiguredo@ayame-labo \
+    ./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --room-id shiguredo@ayame-labo \
         --signaling-key jGTYhHBYhIF0IvzTTvPub0aO8qsmshksqACOCou2GrcOSNTa
 
 
