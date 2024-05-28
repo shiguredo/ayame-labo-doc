@@ -1,9 +1,10 @@
 # Ayame Labo ドキュメント
 
-- 日時: 2023-07-21
-- 作: [時雨堂](https://shiguredo.jp)
-- 資料 バージョン: 2023.1
-- URL: <https://ayame-labo.shiguredo.app/>
+| 日時 | 2023-07-21                          |
+| ---- | ----------------------------------- |
+| 作   | [時雨堂](https://shiguredo.jp)      |
+| 資料 | バージョン: 2023.1                  |
+| URL  | <https://ayame-labo.shiguredo.app/> |
 
 これは時雨堂が提供している [Ayame Labo](https://ayame-labo.shiguredo.app/) のドキュメントです。
 
