@@ -1,10 +1,9 @@
 # Ayame Labo ドキュメント
 
-| 日時 | 2023-07-21                          |
-| ---- | ----------------------------------- |
-| 作   | [時雨堂](https://shiguredo.jp)      |
-| 資料 | バージョン: 2023.1                  |
-| URL  | <https://ayame-labo.shiguredo.app/> |
+- 日時: 2024-08-29
+- 作: [時雨堂](https://shiguredo.jp)
+- 資料: バージョン: 2024.1
+- URL:  <https://ayame-labo.shiguredo.app/>
 
 これは時雨堂が提供している [Ayame Labo](https://ayame-labo.shiguredo.app/) のドキュメントです。
 
@@ -14,7 +13,14 @@
 
 ## お知らせ
 
-- TURN 最大転送量が 10 TB 以上になりました
+### 2024-08-29
+
+- STUN のポートを 3478/UDP に変更しました
+- TURN-UDP のポートを 3478/UDP に変更しました
+- TURN-TCP のポートを 3478/TCP に変更しました
+- TURN-TLS のポートを 5349/TCP に変更しました
+- TURN 最大利用帯域を 500 kbps に変更しました
+- TURN 転送量の制限を撤廃しました
 
 ## FAQ
 
@@ -37,7 +43,7 @@
 - Ayame Labo は長時間接続しても問題ありませんか？
   - 問題ありません
 - Ayame Labo は転送量制限がありますか？
-  - 月間 10 TB 以上の余裕があります
+  - ありません
 - Ayame Labo は同時接続制限がありますか？
   - ありません
   - ただし Ayame の仕様上 1 ルーム 2 人までしか接続できません
@@ -45,30 +51,34 @@
   - ありません
 - Ayame Labo は STUN を提供していますか？
   - サインアップ時のみ提供しています
-  - STUN は 443/UDP ポート
+  - STUN は 3478/UDP ポート
 - Ayame Labo は TURN-UDP を提供していますか？
   - サインアップ時のみ提供しています
+  - TURN-UDP は 3478/UDP ポート
+- Ayame Labo は TURN 転送量制限がありますか？
+  - ありません
 - Ayame Labo は TURN-TCP や TURN-TLS を提供していますか？
   - サインアップ時のみ提供しています
-  - TURN-TCP は 443/TCP ポート
-  - TURN-TLS は 443/TCP ポート
+  - TURN-TCP は 3478/TCP ポート
+  - TURN-TLS は 5349/TCP ポート
 - Ayame Labo は IPv6 に対応していますか？
   - 対応していません
 - Ayame Labo は映像ビットレートの制限はありますか？
-  - サインアップ時に TURN を利用している場合はビットレートが 100 kB/s に抑えられます
+  - TURN を利用している場合はビットレートが 500 kbps に抑えられます
 - Ayame Labo の SLA はいくつですか？
   - 保証はありません
-- Ayame Labo はウェブフック機能を提供しますか？
+- Ayame Labo はウェブフック機能を提供していますか？
   - 提供しません
-- Ayame Labo は Ayame の HTTP API を提供しますか？
+- Ayame Labo は Ayame の HTTP API を提供していますか？
   - 提供しません
-- Ayame Labo はサポートを提供しますか？
+- Ayame Labo はサポートを提供していますか？
   - 提供しません
-- Ayame Web SDK のサポートは提供しますか？
+- Ayame Web SDK のサポートは提供していますか？
+  - 提供しません
+- WebRTC Native Client Momo の Ayame モードのサポートは提供していますか？
   - 提供しません
 - メンテナンス告知は行いますか？
-  - 時雨堂の営業日営業時間内(平日 10:00-17:00 )に行う場合のみ Discord にて通知します
-  - それ以外はサイレントで行います
+  - 行いません
 - Ayame Labo の Ayame のバージョンはいくつですか？
   - 公開している Go 版の Ayame ではなく、非公開の Erlang 版の Ayame を利用しています
   - 仕様は Go 版 Ayame と完全互換です
@@ -89,8 +99,8 @@
 ## 制限
 
 - Ayame の **ウェブフック機能は利用できません**
-- Ayame Labo は Ayame Web SDK 以外での利用を想定していません
-- TURN のビットレート制限は 1 接続あたり 800 kbps です
+- Ayame Labo は Ayame Web SDK と WebRTC Native Client Momo 以外での利用を想定していません
+- TURN のビットレート制限は 1 接続あたり 500 kbps です
 
 ## 禁止
 
