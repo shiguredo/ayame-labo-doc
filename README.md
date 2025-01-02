@@ -164,13 +164,11 @@ SDK をそのまま利用可能です。
 
 <https://github.com/OpenAyame/ayame-web-sdk>
 
-### サインアップなしで Ayame Web SDK サンプルのデモ利用する
+### サインアップなしで Ayame Web SDK サンプルを利用する
 
-デフォルトで Ayame Labo のシグナリングサーバが設定されています。
+<https://github.com/OpenAyame/ayame-web-sdk-examples>
 
-<https://openayame.github.io/ayame-web-sdk-examples/>
-
-### サインアップ無しで WebRTC Native Client Momo で Ayame Labo を利用する
+### サインアップなしで WebRTC Native Client Momo で Ayame Labo を利用する
 
 [shiguredo/momo: WebRTC Native Client Momo](https://github.com/shiguredo/momo)
 
