@@ -168,7 +168,7 @@ SDK をそのまま利用可能です。
 
 デフォルトで Ayame Labo のシグナリングサーバが設定されています。
 
-<https://openayame.github.io/ayame-web-sdk-samples/>
+<https://openayame.github.io/ayame-web-sdk-examples/>
 
 ### サインアップ無しで WebRTC Native Client Momo で Ayame Labo を利用する
 
