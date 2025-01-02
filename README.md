@@ -136,50 +136,6 @@ Ayame Labo はサインアップし、ルーム認証を利用する事で法人
 - [hakobera/go-ayame: go-ayame is go client library for WebRTC Signaling Server Ayame](https://github.com/hakobera/go-ayame)
 - [tarakoKutibiru/UnityRenderStreaming-Ayame-Sample](https://github.com/tarakoKutibiru/UnityRenderStreaming-Ayame-Sample)
 
-### サインアップなしでの利用方法
-
-Ayame Labo はサインアップせずに、シグナリングサーバだけを利用することが可能です。
-
-ただし、その場合はルームの認証を行うことや、 STUN/TURN サーバの利用をすることができません。
-
-以下の URL で利用することができます。 ルーム ID を利用する場合は「他の人が推測されにくい ID を利用するようにしてください」
-
-`wss://ayame-labo.shiguredo.app/signaling`
-
-### サインアップなしでの制限
-
-Ayame Labo にサインアップせずにルーム認証を利用しない場合は以下の制限があります。
-
-- ルーム認証の利用不可
-- STUN サーバの利用不可
-- TURN サーバの利用不可
-- 商用目的での利用不可
-- サービスでの利用不可
-- 法人や個人事業主の利用不可
-- アカデミックの利用不可
-
-### サインアップなしで Ayame Web SDK を利用する
-
-SDK をそのまま利用可能です。
-
-<https://github.com/OpenAyame/ayame-web-sdk>
-
-### サインアップなしで Ayame Web SDK サンプルを利用する
-
-<https://github.com/OpenAyame/ayame-web-sdk-examples>
-
-### サインアップなしで WebRTC Native Client Momo で Ayame Labo を利用する
-
-[shiguredo/momo: WebRTC Native Client Momo](https://github.com/shiguredo/momo)
-
-Momo で Ayame が利用できます。
-
-#### ルーム ID を ayame-labo に指定した場合
-
-```bash
-./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --room-id ayame-labo
-```
-
 ## サインアップありでの利用方法
 
 ### シグナリングキー設定済みのサンプルを利用する
@@ -243,6 +199,43 @@ Momo で Ayame Labo を利用する事ができます。
 ```bash
 ./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --room-id shiguredo@ayame-labo \
     --signaling-key jGTYhHBYhIF0IvzTTvPub0aO8qsmshksqACOCou2GrcOSNTa
+```
+
+### サインアップなしでの利用方法
+
+> [!CAUTION]
+> サインアップなしでの利用はサインアップありでの利用に比べて制限が多いためお勧めしません。
+
+Ayame Labo はサインアップせずに、シグナリングサーバだけを利用することが可能です。
+
+ただし、その場合はルームの認証を行うことや、 STUN/TURN サーバの利用をすることができません。
+
+以下の URL で利用することができます。 ルーム ID を利用する場合は「他の人が推測されにくい ID を利用するようにしてください」
+
+`wss://ayame-labo.shiguredo.app/signaling`
+
+### サインアップなしでの制限
+
+Ayame Labo にサインアップせずにルーム認証を利用しない場合は以下の制限があります。
+
+- ルーム認証の利用不可
+- STUN サーバの利用不可
+- TURN サーバの利用不可
+- 商用目的での利用不可
+- サービスでの利用不可
+- 法人や個人事業主の利用不可
+- アカデミックの利用不可
+
+### サインアップなしで WebRTC Native Client Momo で Ayame Labo を利用する
+
+[shiguredo/momo: WebRTC Native Client Momo](https://github.com/shiguredo/momo)
+
+Momo で Ayame が利用できます。
+
+#### ルーム ID を ayame-labo に指定した場合
+
+```bash
+./momo ayame --signaling-url wss://ayame-labo.shiguredo.app/signaling --room-id ayame-labo
 ```
 
 ### Ayame Labo のアカウントを削除する
