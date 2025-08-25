@@ -7,20 +7,7 @@
 
 これは時雨堂が提供している [Ayame Labo](https://ayame-labo.shiguredo.app/) のドキュメントです。
 
-## ステータスページ
-
-<https://shiguredo.onlineornot.com/>
-
 ## お知らせ
-
-### 2024-08-29
-
-- STUN のポートを 3478/UDP に変更しました
-- TURN-UDP のポートを 3478/UDP に変更しました
-- TURN-TCP のポートを 3478/TCP に変更しました
-- TURN-TLS のポートを 5349/TCP に変更しました
-- TURN 最大利用帯域を 500 kbps に変更しました
-- TURN 転送量の制限を撤廃しました
 
 ## FAQ
 
