@@ -1,8 +1,8 @@
 # Ayame Labo ドキュメント
 
-- 日時: 2024-08-29
+- 日時: 2025-10-28
 - 作: [時雨堂](https://shiguredo.jp)
-- 資料: バージョン: 2024.1
+- 資料: バージョン: 2025.1
 - URL:  <https://ayame-labo.shiguredo.app/>
 
 これは時雨堂が提供している [Ayame Labo](https://ayame-labo.shiguredo.app/) のドキュメントです。
@@ -67,8 +67,7 @@
 - メンテナンス告知は行いますか？
   - 行いません
 - Ayame Labo の Ayame のバージョンはいくつですか？
-  - 公開している Go 版の Ayame ではなく、非公開の Erlang 版の Ayame を利用しています
-  - 仕様は Go 版 Ayame と完全互換です
+  - [2025.5.1](https://github.com/OpenAyame/ayame/releases/tag/2025.5.1) を使用しています
 - 認証エラー理由に ``PLEASE-CONTACT-US`` が出ました
   - どれかの禁止事項に当てはまっている可能性がある場合に出ます、メールにてご連絡ください
 
